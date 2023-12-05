@@ -120,15 +120,15 @@
             // 
             // dateNasc
             // 
+            this.dateNasc.CustomFormat = "dd/MM/yyyy";
             this.dateNasc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateNasc.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateNasc.Location = new System.Drawing.Point(428, 108);
             this.dateNasc.Name = "dateNasc";
             this.dateNasc.Size = new System.Drawing.Size(208, 31);
-            this.dateNasc.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateNasc.CustomFormat = "dd/MM/yyyy";
             this.dateNasc.TabIndex = 3;
             // 
-            // Form1
+            // FuncionarioCadastroForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -142,9 +142,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonSalvar);
-            this.Name = "Form1";
+            this.Name = "FuncionarioCadastroForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Funcionário - Cadastro";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFuncionario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
