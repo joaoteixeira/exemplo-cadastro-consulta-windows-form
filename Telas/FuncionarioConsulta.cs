@@ -11,7 +11,7 @@ using WindowsFormsApp1.Configuracao;
 using WindowsFormsApp1.Modelos;
 using WindowsFormsApp1.Uteis;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp1.Telas
 {
     public partial class FuncionarioConsulta : Form
     {

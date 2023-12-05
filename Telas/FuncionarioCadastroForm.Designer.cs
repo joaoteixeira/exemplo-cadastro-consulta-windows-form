@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApp1
+﻿namespace WindowsFormsApp1.Telas
 {
-    partial class Form1
+    partial class FuncionarioCadastroForm
     {
         /// <summary>
         /// Variável de designer necessária.

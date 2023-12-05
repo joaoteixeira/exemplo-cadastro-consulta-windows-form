@@ -6,14 +6,14 @@ using WindowsFormsApp1.Configuracao;
 using WindowsFormsApp1.Modelos;
 using WindowsFormsApp1.Uteis;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp1.Telas
 {
-    public partial class Form1 : Form
+    public partial class FuncionarioCadastroForm : Form
     {
 
 
 
-        public Form1()
+        public FuncionarioCadastroForm()
         {
             InitializeComponent();
             Load += Form1_Load1;
